@@ -23,7 +23,7 @@ const getRandom = (arrayElements) => {
 
     console.log(getRandom(db));
     return (
-      <div className='"App' style={{backgroundColor: color}} >
+      <div className="App" style={{backgroundColor: color}} >
         <QuoteBox 
         quote={quote}
         newQuote={newQuote}

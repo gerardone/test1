@@ -1,7 +1,6 @@
 import React from 'react'
 import QuoteButton from './QuoteButton'
 
-
 const QuoteBox = ({quote, newQuote, color}) => {
   return (
     <div className='quoteBox' style={{color: color}}>

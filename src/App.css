@@ -21,3 +21,29 @@
     text-align:right;
     margin: 15px 0;
 }
+
+.quoteBox__icon {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    font-size: 55px;
+}
+
+.quoteBox__button{
+    font-size: 40px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 auto;
+    cursor: pointer;
+    transition: transform 200ms ease;
+}
+
+.quoteBox__button:hover {
+    transform: scale(1.03);
+}
